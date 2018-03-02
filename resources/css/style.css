@@ -26,6 +26,16 @@ header nav {
   padding-right: 40px;
   }
 
+a {
+  color: seashell;
+  text-decoration: underline;
+  }
+
+nav span {
+    display: inline-block;
+    padding: 15px;
+  }
+
 .logo {
   height: 50px;
   padding-left: 10px;
@@ -36,12 +46,31 @@ header nav {
   flex-grow: 1;
 }
 
-a {
-color: seashell;
-text-decoration: underline;
+/*Top section*/
+
+.content {
+  justify-content: center;
+
 }
 
-nav span {
-  display: inline-block;
-  padding: 15px;
+#mission {
+  background-image: url(../images/img-mission-background.jpg);
+  height: 700px;
+  width: 1200px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 69px auto 0 auto;
+}
+
+.top .text {
+  margin: auto 0 auto 0;
+  background-color: black;
+  width: 100%;
+}
+
+.top .text h4,
+.top .text h2 {
+  padding: 10px;
+  margin: 0;
 }
