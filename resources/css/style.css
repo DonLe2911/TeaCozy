@@ -140,3 +140,20 @@ nav span {
 .location p {
   padding: 5px;
 }
+
+/*Footer*/
+
+footer {
+  background-color: black;
+  }
+
+.centre {
+  height: 200px;
+  text-align: center;
+}
+
+.copyright {
+  text-align: left;
+  padding-left: 20px;
+  font-weight: bold;
+}
