@@ -17,6 +17,7 @@ header {
   border-bottom: 1px solid seashell;
   position: fixed;
   display: flex;
+  background-color: black;
   z-index: 1;
   top: 0;
   align-items: center;
@@ -73,4 +74,36 @@ nav span {
 .top .text h2 {
   padding: 10px;
   margin: 0;
+}
+
+/*Middle Section*/
+
+#featured {
+  width: 1000px;
+  margin: auto;
+  padding-top: 70px;
+}
+
+.grid {
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 1000px;
+}
+
+.images {
+  padding: 5px;
+}
+
+.images img {
+  height: 200px;
+  display: block;
+  margin: 10px;
+}
+
+.images span {
+  display: block;
+  padding: 5px;
+  font-weight: bold;
 }
